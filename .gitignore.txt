@@ -1,0 +1,54 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# ── Virtual environments ──────────────────────────────────────────────
+myenv/
+.venv/
+venv/
+env/
+ENV/
+
+# ── SKiDL generated outputs ───────────────────────────────────────────
+# Remove these two lines if you want to track generated netlists in git
+Driver_skidl.net
+Driver_skidl.xml
+
+# ── KiCad ─────────────────────────────────────────────────────────────
+*.kicad_prl
+*.kicad_pro
+fp-info-cache
+*.bak
+*.bak2
+*.lck
+*.000
+*-backups/
+_autosave-*
+
+# ── macOS ─────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows ───────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── VS Code ───────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── JetBrains ─────────────────────────────────────────────────────────
+.idea/
