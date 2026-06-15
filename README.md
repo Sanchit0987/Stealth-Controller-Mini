@@ -77,7 +77,7 @@ pip install skidl
 
 ---
 
-## How the SKiDL Schematic Was Created
+## SKiDL Schematic Workflow
 
 This section documents the exact process followed to go from a KiCad schematic file
 to a fully code-defined SKiDL Python file.
